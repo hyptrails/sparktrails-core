@@ -6,6 +6,6 @@ hypotheses about human trails.
 Please see: http://dmir.org/sparktrails
 
 ## Contact
-DMIR Group, University of Würzburg
-Martin Becker
+DMIR Group, University of Würzburg  
+Martin Becker  
 becker@informatik.uni-wuerzburg.de
