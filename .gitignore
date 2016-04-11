@@ -1,2 +1,6 @@
 out
 target
+.cache*
+.project
+.classpath
+.settings
