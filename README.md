@@ -3,7 +3,7 @@ SparkTrails is a MapReduce implementation of [HypTrails](http://hyptrails.github
 hypotheses about human trails.
 
 ## Quickstart
-Please see: http://dmir.org/sparktrails
+Please see: http://hyptrails.github.io/sparktrails
 
 ## Contact
 Martin Becker  
