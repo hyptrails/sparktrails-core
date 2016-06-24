@@ -91,7 +91,6 @@ object Matrix {
       }
   }
   
-  
   implicit class SeqRowWrapper(matrix: SeqRow.Type) {
     def sort: SeqRow.Type = SeqRow.sort(matrix)
     def normalizeRows: SeqRow.Type = SeqRow.normalizeRows(matrix)
@@ -106,6 +105,13 @@ object Matrix {
     def toSeqRows = fromCoordinateToSeqRows(matrix)
   }
   
+  implicit def intSeqRowToLongSeqRow(in: RDD[(Long, Seq[(Long, Double)])]): SeqRow.Type =
+  in.map { case (row, cols) =>
+    val longCols = cols.map { case (col, value) =>
+      (col.toLong, value) 
+    }
+    (row.toLong, longCols)
+  }
 
   def fromSeqToMapRows(rowCounts: SeqRow.Type): MapRow.Type =
     rowCounts.map { 
