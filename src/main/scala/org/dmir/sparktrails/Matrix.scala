@@ -105,7 +105,7 @@ object Matrix {
     def toSeqRows = fromCoordinateToSeqRows(matrix)
   }
   
-  implicit def intSeqRowToLongSeqRow(in: RDD[(Long, Seq[(Long, Double)])]): SeqRow.Type =
+  implicit def intSeqRowToLongSeqRow(in: RDD[(Int, Seq[(Int, Double)])]): SeqRow.Type =
   in.map { case (row, cols) =>
     val longCols = cols.map { case (col, value) =>
       (col.toLong, value) 
