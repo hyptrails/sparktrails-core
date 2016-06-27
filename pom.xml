@@ -5,7 +5,7 @@
 
 	<groupId>org.dmir.sparktrails</groupId>
 	<artifactId>sparktrails-core_2.10</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.0</version>
 
 	<name>SparkTrails - Core</name>
 	<description>SparkTrails is a MapReduce implementation of HypTrails.</description>
