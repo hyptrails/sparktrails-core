@@ -13,6 +13,6 @@ For a quickstart tutorial please see the project page: http://hyptrails.github.i
 
 
 ## Contact
-Martin Becker  
+>Martin Becker  
 DMIR Group, University of Würzburg  
 becker@informatik.uni-wuerzburg.de
